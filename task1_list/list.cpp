@@ -76,7 +76,9 @@ void removeCar(List* pRoot, char* plateNum)
 
 void editCar(List* pRoot, char* plateNum)
 {
-
+	if (pRoot != NULL) {
+		pRoot->pPlateNum = plateNum;
+	}
 }
 //name of the function
 void printAll(List* pRoot) 
